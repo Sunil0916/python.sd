@@ -1,0 +1,25 @@
+
+# FOR LOOPS for list datatype
+list = ['sai', 'sunil', 'vaishu', 'rahul' ]
+for i in list:
+    print(i + ' is a name of a person')
+
+#FOR LOOP for string datatype
+name = 'sunil'
+for i in name:
+    print(i + ' is an alphabet')
+
+#FOR LOOP for tuple
+tp = (1, 2, 3, 4)
+for i in tp:
+    print(str(i) + ' is a numarical value')
+
+#FOR LOOP for dictionay datatype
+# to accese only keys
+d1 = {'vaishu': 100, 'sunil': 98, 'bharath': 99}
+for key in d1.keys():
+    print(key + ' is a name of the studend')
+# to accese only values
+d2 = {'vaishu': 100, 'sunil': 98, 'bharath': 99}
+for value in d2.values():
+    print(str(value) + ' is the scored marks')
