@@ -23,3 +23,8 @@ for key in d1.keys():
 d2 = {'vaishu': 100, 'sunil': 98, 'bharath': 99}
 for value in d2.values():
     print(str(value) + ' is the scored marks')
+
+# to accese both keys and values
+d3 = {'vaishu': 100, 'sunil': 98, 'bharath': 99}
+for key,value in d3.items():
+    print(key + ' is the name of the student who scored ' + str(value) + '')
